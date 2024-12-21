@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.714" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="Bookcart Application Login" name="Login should be successful" time="10.147">
+<failure type="java.lang.AssertionError" message="expected [anan] but found [anandraj]">
+<![CDATA[java.lang.AssertionError: expected [anan] but found [anandraj]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.stepdefenitions.loginSteps.theUserShouldBeAbleToLoginSuccessfully(loginSteps.java:41)
+	at ✽.the user should be able to login successfully(file:///C:/Users/Admin/eclipse-workspace/cucumberFramework/src/test/java/com/features/login.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user clicks on the login option...................................passed
+And the user enters the username as "anandraj"..............................passed
+And the user enters the password as "Anandraj@1234".........................passed
+When the user clicks on the login button....................................passed
+Then the user should be able to login successfully..........................failed
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart Application Login" name="Login should fail" time="6.186">
+<system-out><![CDATA[
+Given the user clicks on the login option...................................passed
+And the user enters the username as "anandarajM"............................passed
+And the user enters the password as "123456@Anand"..........................passed
+When the user clicks on the login button....................................passed
+But the user should not be able to login successfully.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
