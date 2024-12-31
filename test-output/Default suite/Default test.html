@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Dec 21 11:45:42 IST 2024</td>
+<td>Started on:</td><td>Thu Dec 26 21:55:39 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17682 ms)</td>
+<tr><td>Total time:</td><td>58 seconds (58919 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,29 +76,31 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.runners.testRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login should be successful", "Bookcart Application Login"</td>
-<td><div><pre>java.lang.AssertionError: expected [anan] but found [anandraj]
+<td title='com.runners.testRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cartpage should be updated", "Bookcart Application Login"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.stepdefenitions.loginSteps.theUserShouldBeAbleToLoginSuccessfully(loginSteps.java:41)
-	at ✽.the user should be able to login successfully(file:///C:/Users/Admin/eclipse-workspace/cucumberFramework/src/test/java/com/features/login.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2056499811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2056499811'><pre>java.lang.AssertionError: expected [anan] but found [anandraj]
+	at org.testng.Assert.assertEquals(Assert.java:1067)
+	at org.testng.Assert.assertEquals(Assert.java:1031)
+	at org.testng.Assert.assertEquals(Assert.java:1077)
+	at pages.Header.theCartPageShouldBeUpdated(Header.java:30)
+	at ✽.The cart page should be updated(file:///C:/Users/Admin/eclipse-workspace/cucumberFramework/src/test/java/com/features/addToCart.feature:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1168076863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1168076863'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.stepdefenitions.loginSteps.theUserShouldBeAbleToLoginSuccessfully(loginSteps.java:41)
-	at ✽.the user should be able to login successfully(file:///C:/Users/Admin/eclipse-workspace/cucumberFramework/src/test/java/com/features/login.feature:13)
+	at org.testng.Assert.assertEquals(Assert.java:1067)
+	at org.testng.Assert.assertEquals(Assert.java:1031)
+	at org.testng.Assert.assertEquals(Assert.java:1077)
+	at pages.Header.theCartPageShouldBeUpdated(Header.java:30)
+	at ✽.The cart page should be updated(file:///C:/Users/Admin/eclipse-workspace/cucumberFramework/src/test/java/com/features/addToCart.feature:12)
 </pre></div></td>
 <td>10</td>
-<td>com.runners.testRunner@477b4cdf</td></tr>
+<td>com.runners.testRunner@38afe297</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -109,10 +111,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.runners.testRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cartpage should be updated", "Bookcart Application Login"</td>
+<td></td>
+<td>10</td>
+<td>com.runners.testRunner@38afe297</td></tr>
+<tr>
+<td title='com.runners.testRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cartpage should be updated", "Bookcart Application Login"</td>
+<td></td>
+<td>9</td>
+<td>com.runners.testRunner@38afe297</td></tr>
+<tr>
+<td title='com.runners.testRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login should be successful", "Bookcart Application Login"</td>
+<td></td>
+<td>7</td>
+<td>com.runners.testRunner@38afe297</td></tr>
+<tr>
 <td title='com.runners.testRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login should fail", "Bookcart Application Login"</td>
 <td></td>
-<td>6</td>
-<td>com.runners.testRunner@477b4cdf</td></tr>
+<td>8</td>
+<td>com.runners.testRunner@38afe297</td></tr>
+<tr>
+<td title='com.runners.testRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cartpage should be updated", "Bookcart Application Login"</td>
+<td></td>
+<td>10</td>
+<td>com.runners.testRunner@38afe297</td></tr>
 </table><p>
 </body>
 </html>

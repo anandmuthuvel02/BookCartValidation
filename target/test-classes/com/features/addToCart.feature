@@ -1,6 +1,8 @@
 @regression  #can add n number of tags
-Feature: Bookcart Application Login
+Feature: Bookcart Application place order
 
+Background:
+    Given the user clicks on the login option
   
   @cleanUp  #can add n number of tags
   Scenario Outline: cartpage should be updated

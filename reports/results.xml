@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="16.714" tests="2" skipped="0" failures="1" errors="0">
-<testcase classname="Bookcart Application Login" name="Login should be successful" time="10.147">
+<testsuite name="Cucumber" time="19.058" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="Bookcart Application Login" name="Login should be successful" time="11.512">
 <failure type="java.lang.AssertionError" message="expected [anan] but found [anandraj]">
 <![CDATA[java.lang.AssertionError: expected [anan] but found [anandraj]
 	at org.testng.Assert.fail(Assert.java:111)
@@ -21,7 +21,7 @@ When the user clicks on the login button....................................pass
 Then the user should be able to login successfully..........................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Bookcart Application Login" name="Login should fail" time="6.186">
+<testcase classname="Bookcart Application Login" name="Login should fail" time="7.15">
 <system-out><![CDATA[
 Given the user clicks on the login option...................................passed
 And the user enters the username as "anandarajM"............................passed
